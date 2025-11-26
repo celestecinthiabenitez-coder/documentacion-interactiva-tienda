@@ -1,0 +1,4 @@
+id_venta,fecha,id_cliente,nombre_cliente,email,medio_pago
+1,2023-04-01,1,Ana Torres,ana@mail.com,tarjeta
+2,2023-04-02,2,Juan Pérez,juan@mail.com,efectivo
+3,2023-04-03,3,Luis Gómez,luis@mail.com,qr

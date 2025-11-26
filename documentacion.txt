@@ -1,0 +1,26 @@
+DOCUMENTACIÓN DEL PROYECTO
+
+1. Tema, problema y solución
+Este proyecto simula la gestión de una tienda a partir de datos sintéticos.
+El objetivo es practicar análisis, visualización y modelado con datos educativos.
+
+2. Dataset de referencia
+Fuente: datos generados con fines educativos.
+Definición: base que representa una tienda, con catálogo de productos, registro de clientes y operaciones de venta.
+
+3. Estructura por tabla
+Productos: id_producto, nombre_producto, categoria, precio_unitario
+Clientes: id_cliente, nombre_cliente, email, ciudad, fecha_alta
+Ventas: id_venta, fecha, id_cliente, nombre_cliente, email, medio_pago
+Detalle_Ventas: id_venta, id_producto, nombre_producto, cantidad, precio_unitario, importe
+
+4. Escalas de medición
+- Nominal: categorías sin orden (ej. nombre, ciudad, medio de pago)
+- Intervalo: fechas (ej. fecha de alta, fecha de venta)
+- Razón: cantidades y precios (ej. precio_unitario, cantidad, importe)
+
+5. Sugerencias con Copilot
+- Separar la documentación en archivos individuales para mayor claridad.
+- Agregar una opción de búsqueda por palabra clave en los textos.
+- Permitir exportar lo mostrado en pantalla a un archivo .txt.
+- Incluir tests mínimos para verificar que cada opción del menú funciona correctamente.

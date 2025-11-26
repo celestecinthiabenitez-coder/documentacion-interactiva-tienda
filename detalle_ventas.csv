@@ -1,0 +1,4 @@
+id_venta,id_producto,nombre_producto,cantidad,precio_unitario,importe
+1,1,Pan,2,100,200
+1,2,Leche,1,200,200
+2,3,Jabón,3,150,450

@@ -1,0 +1,3 @@
+2. Dataset de referencia
+Fuente: datos educativos generados con fines prácticos.
+Definición: representa una tienda con productos, clientes y ventas.

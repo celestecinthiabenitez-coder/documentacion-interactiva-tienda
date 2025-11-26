@@ -1,0 +1,5 @@
+5. Sugerencias con Copilot
+- Separar documentación
+- Agregar búsquedas
+- Exportar secciones
+- Tests mínimos del menú

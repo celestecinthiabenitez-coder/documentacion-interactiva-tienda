@@ -1,0 +1,4 @@
+4. Escalas de medición
+- Nominal: categorías sin orden (nombre, email, ciudad)
+- Intervalo: fechas
+- Razón: cantidades, precios, importes
