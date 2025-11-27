@@ -1,71 +1,129 @@
-Documentación Interactiva — Tienda
----
-Sprint 1 – Proyecto en Python
+Documentación Interactiva — Proyecto Tienda
 
-Este proyecto tiene como propósito desarrollar un visor interactivo de documentación ejecutado desde la terminal. Permite consultar información clave sobre un proyecto de análisis de datos mediante un menú simple y accesible.
+Este repositorio contiene el desarrollo del proyecto dividido en dos sprints:
+Sprint 1 (documentación interactiva) y Sprint 2 (estadística aplicada con pandas y gráficos).
+Cada sprint se encuentra organizado en su propia carpeta.
 
-Funcionalidad del programa
----
-El menú principal permite acceder a distintas secciones de la documentación:
+Estructura del repositorio
+/sprint1      → Proyecto base: menú, lectura de archivos, documentación
+/sprint2      → Proyecto ampliado: pandas, estadísticas descriptivas y visualizaciones
+.gitignore
+README.md
 
-Tema, problema y solución
+Sprint 1 — Documentación Interactiva
+Descripción
 
-Conjunto de datos de referencia: fuente, definición y estructura
+Este sprint desarrolla un visor interactivo que permite consultar documentación del proyecto desde la terminal mediante un menú.
+Incluye lectura de archivos .txt y .csv.
 
-Estructura de las tablas del proyecto (archivos CSV)
+Funcionalidades principales
 
-Escalas de medición
+Menú interactivo por consola
 
-Sugerencias y mejoras generadas con IA
+Lectura de archivos de texto
 
-Salir del programa
+Lectura básica de archivos CSV
 
-El sistema lee archivos de texto (.txt) y archivos estructurados (.csv) para mostrar la información correspondiente.
----
-Archivos incluidos en el proyecto
+Documentación separada en archivos
+
+Organización modular del código
+
+Archivos del Sprint 1
+
 main.py
+
 tema.txt
+
 dataset.txt
+
 escalas.txt
+
 sugerencias.txt
 
-productos.csv
 clientes.csv
+
+productos.csv
+
 ventas.csv
+
 detalle_ventas.csv
 
-Ejecución del programa
----
-Para ejecutar el sistema, abrir una terminal ubicada en la carpeta del proyecto y ejecutar:
+Diagrama_de_flujo.png
 
-py main.py
+Ejecución del Sprint 1
+py sprint1/main.py
 
-Objetivos del Sprint 1
----
-Lectura de archivos de texto (.txt)
+Sprint 2 — Estadística Aplicada y Visualizaciones
+Descripción
 
-Lectura de archivos de datos (.csv)
+Este sprint amplía el anterior incorporando análisis estadístico con pandas y gráficos con matplotlib y seaborn.
+Se agrega una nueva opción en el menú que permite visualizar resultados estadísticos y visualizaciones gráficas.
 
-Creación de un menú interactivo
+Contenidos del Sprint 2
 
-Separación de la documentación en archivos independientes
+Estadística descriptiva
 
-Organización clara del proyecto
+Distribuciones
 
-Uso básico de Git y GitHub
+Tablas de frecuencias
 
-Elaboración de documentación técnica
+Medidas resumen
+
+Boxplots
+
+Histogramas
+
+Matriz de correlación
+
+Funcionalidades nuevas
+
+Lectura de datos con pandas
+
+Limpieza básica de datos
+
+Value counts por categorías
+
+Histogramas
+
+Boxplots
+
+Heatmap de correlaciones
+
+Menú actualizado con nueva opción de análisis
+
+Archivos del Sprint 2
+
+main_sprint2.py
+
+clientes99.csv
+
+productos99.csv
+
+ventas99.csv
+
+detalle_ventas99.csv
+
+Ejecución del Sprint 2
+py sprint2/main_sprint2.py
 
 Tecnologías utilizadas
----
+
 Python 3.12
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+Git / GitHub
 
 Visual Studio Code
 
-Git
+Estado general del proyecto
+Sprint	Estado
+Sprint 1	Finalizado
+Sprint 2	Finalizado
 
-GitHub
-
-Estado del proyecto
----
-Sprint 1 completado y funcionando correctamente.
+Autora
+Proyecto desarrollado por Celeste Cinthia Benitez.
