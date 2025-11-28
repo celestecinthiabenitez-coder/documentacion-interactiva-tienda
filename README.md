@@ -1,129 +1,85 @@
-Documentación Interactiva — Proyecto Tienda
+# Proyecto Tienda – Sprint 1 y Sprint 2
 
-Este repositorio contiene el desarrollo del proyecto dividido en dos sprints:
-Sprint 1 (documentación interactiva) y Sprint 2 (estadística aplicada con pandas y gráficos).
-Cada sprint se encuentra organizado en su propia carpeta.
+Este proyecto corresponde a la materia de Programación y consiste en simular una tienda de productos, permitiendo registrar ventas, mostrar estadísticas y generar gráficos.  
+El trabajo está dividido en dos sprints:
 
-Estructura del repositorio
-/sprint1      → Proyecto base: menú, lectura de archivos, documentación
-/sprint2      → Proyecto ampliado: pandas, estadísticas descriptivas y visualizaciones
-.gitignore
-README.md
+- Sprint 1: Funcionalidad básica y menú principal.
+- Sprint 2: Gráficos y análisis de datos.
 
-Sprint 1 — Documentación Interactiva
-Descripción
+---
 
-Este sprint desarrolla un visor interactivo que permite consultar documentación del proyecto desde la terminal mediante un menú.
-Incluye lectura de archivos .txt y .csv.
+## Sprint 1 – Menú Principal
 
-Funcionalidades principales
+En este sprint se desarrolló el menú principal y las funciones iniciales del sistema (cargar productos, registrar ventas, mostrar listados, etc.).
 
-Menú interactivo por consola
+### Captura del menú – Sprint 1
+[Menú Sprint 1](imagenes/menu_sprint1.png)
 
-Lectura de archivos de texto
+---
 
-Lectura básica de archivos CSV
+## Sprint 2 – Menú Principal
 
-Documentación separada en archivos
+Este sprint agrega el menú para la parte gráfica y el análisis estadístico.
 
-Organización modular del código
+### Captura del menú – Sprint 2
+[Menú Sprint 2](imagenes/menu_sprint2.png)
 
-Archivos del Sprint 1
+---
+
+# Gráficos del Sprint 2
+
+A continuación se muestran los gráficos generados por el programa.
+
+### Gráfico 1 – Participación por categoría
+[Gráfico 1 Sprint 2](imagenes/grafico1_sprint2.png)
+
+---
+
+### Gráfico 2 – Comparación de valores
+[Gráfico 2 Sprint 2](imagenes/grafico2_sprint2.png)
+
+---
+
+### Gráfico 3 – Distribución
+[Gráfico 3 Sprint 2](imagenes/grafico3_sprint2.png)
+
+---
+
+# Diagrama de Flujo
+
+Este diagrama representa el funcionamiento general del programa y el orden del menú.
+
+[Diagrama de Flujo](imagenes/diagrama_flujo.png)
+
+---
+
+# Cómo ejecutar el programa
+
+1. Clonar el repositorio.
+2. Abrir la carpeta del proyecto en Visual Studio Code.
+3. Ejecutar el archivo principal (por ejemplo `main.py`) con Python.
+4. Navegar por el menú usando las opciones numéricas.
+
+---
+
+# Estructura del repositorio
+
+/imagenes
+menu_sprint1.png
+menu_sprint2.png
+grafico1_sprint2.png
+grafico2_sprint2.png
+grafico3_sprint2.png
+diagrama_flujo.png
 
 main.py
+funciones.py
+README.md
 
-tema.txt
+---
 
-dataset.txt
+# Estado del Proyecto
 
-escalas.txt
-
-sugerencias.txt
-
-clientes.csv
-
-productos.csv
-
-ventas.csv
-
-detalle_ventas.csv
-
-Diagrama_de_flujo.png
-
-Ejecución del Sprint 1
-py sprint1/main.py
-
-Sprint 2 — Estadística Aplicada y Visualizaciones
-Descripción
-
-Este sprint amplía el anterior incorporando análisis estadístico con pandas y gráficos con matplotlib y seaborn.
-Se agrega una nueva opción en el menú que permite visualizar resultados estadísticos y visualizaciones gráficas.
-
-Contenidos del Sprint 2
-
-Estadística descriptiva
-
-Distribuciones
-
-Tablas de frecuencias
-
-Medidas resumen
-
-Boxplots
-
-Histogramas
-
-Matriz de correlación
-
-Funcionalidades nuevas
-
-Lectura de datos con pandas
-
-Limpieza básica de datos
-
-Value counts por categorías
-
-Histogramas
-
-Boxplots
-
-Heatmap de correlaciones
-
-Menú actualizado con nueva opción de análisis
-
-Archivos del Sprint 2
-
-main_sprint2.py
-
-clientes99.csv
-
-productos99.csv
-
-ventas99.csv
-
-detalle_ventas99.csv
-
-Ejecución del Sprint 2
-py sprint2/main_sprint2.py
-
-Tecnologías utilizadas
-
-Python 3.12
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Git / GitHub
-
-Visual Studio Code
-
-Estado general del proyecto
-Sprint	Estado
-Sprint 1	Finalizado
-Sprint 2	Finalizado
-
-Autora
-Proyecto desarrollado por Celeste Cinthia Benitez.
+- Sprint 1: completado.
+- Sprint 2: completado.
+- README actualizado con imágenes y capturas.
