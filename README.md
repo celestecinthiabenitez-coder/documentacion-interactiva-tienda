@@ -49,7 +49,8 @@ A continuación se muestran los gráficos generados por el programa.
 
 Este diagrama representa el funcionamiento general del programa y el orden del menú.
 
-[Diagrama de Flujo](imagenes/diagrama_flujo.png)
+[Diagrama de Flujo](imagenes/diagrama_de_flujo.png)
+
 
 ---
 
