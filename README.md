@@ -13,7 +13,7 @@ El trabajo está dividido en dos sprints:
 En este sprint se desarrolló el menú principal y las funciones iniciales del sistema (cargar productos, registrar ventas, mostrar listados, etc.).
 
 ### Captura del menú – Sprint 1
-[Menú Sprint 1](imagenes/menu_sprint1.png)
+![Menú Sprint 1](imagenes/menu_sprint1.png)
 
 ---
 
@@ -22,7 +22,7 @@ En este sprint se desarrolló el menú principal y las funciones iniciales del s
 Este sprint agrega el menú para la parte gráfica y el análisis estadístico.
 
 ### Captura del menú – Sprint 2
-[Menú Sprint 2](imagenes/menu_sprint2.png)
+![Menú Sprint 2](imagenes/menu_sprint2.png)
 
 ---
 
@@ -31,17 +31,17 @@ Este sprint agrega el menú para la parte gráfica y el análisis estadístico.
 A continuación se muestran los gráficos generados por el programa.
 
 ### Gráfico 1 – Participación por categoría
-[Gráfico 1 Sprint 2](imagenes/grafico1_sprint2.png)
+![Gráfico 1 Sprint 2](imagenes/grafico1_sprint2.png)
 
 ---
 
 ### Gráfico 2 – Comparación de valores
-[Gráfico 2 Sprint 2](imagenes/grafico2_sprint2.png)
+![Gráfico 2 Sprint 2](imagenes/grafico2_sprint2.png)
 
 ---
 
 ### Gráfico 3 – Distribución
-[Gráfico 3 Sprint 2](imagenes/grafico3_sprint2.png)
+![Gráfico 3 Sprint 2](imagenes/grafico3_sprint2.png)
 
 ---
 
@@ -49,7 +49,7 @@ A continuación se muestran los gráficos generados por el programa.
 
 Este diagrama representa el funcionamiento general del programa y el orden del menú.
 
-[Diagrama de Flujo](imagenes/diagrama_de_flujo.png)
+![Diagrama de Flujo](imagenes/diagrama_de_flujo.png)
 
 
 ---
@@ -65,16 +65,16 @@ Este diagrama representa el funcionamiento general del programa y el orden del m
 
 # Estructura del repositorio
 
-/imagenes
-menu_sprint1.png
-menu_sprint2.png
-grafico1_sprint2.png
-grafico2_sprint2.png
-grafico3_sprint2.png
-diagrama_flujo.png
+/imagenes  
+menu_sprint1.png  
+menu_sprint2.png  
+grafico1_sprint2.png  
+grafico2_sprint2.png  
+grafico3_sprint2.png  
+diagrama_de_flujo.png  
 
-main.py
-funciones.py
+main.py  
+funciones.py  
 README.md
 
 ---
